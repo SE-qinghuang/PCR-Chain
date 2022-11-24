@@ -43,12 +43,11 @@ class AI_Unit(Unit):
 
     def AIRun(self, inputs):
         # 还没有配置环境变量
-        # avoid "You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY)"
-        # if os.environ.get("OPENAI_API_KEY") is None:
-        #     print("You need to set the OPEN_AI_SECRET_KEY environment variable in .env to your OpenAI API key.")
-        #     exit(1)
+        #avoid "You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY)"
+        if os.environ.get("OPENAI_API_KEY") is None:
+            print("You need to set the OPEN_AI_SECRET_KEY environment variable in .env to your OpenAI API key.")
+            exit(1)
         ready_prompt = self.prompt_builder.createPrompt(self.promptName, inputs)
-        openai.api_key = "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"
         self.config.add_to_config("prompt", ready_prompt)
         response = openai.Completion.create(
             engine=self.config.engine,

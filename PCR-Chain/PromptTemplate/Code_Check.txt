@@ -1,0 +1,69 @@
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+=================================
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure()
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+=================================
+public class hb6 {
+    public static void h1(){
+        Configuration config == new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+=================================
+public class hb6 {
+    public static void h1(){
+        ArrayList config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+=================================
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+=================================
+public class hb6 {
+    public static void h1(){
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+=================================
+{{code}}
+
+Q: Is there any syntax error in this code?
+A:

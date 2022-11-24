@@ -1,0 +1,669 @@
+public class jdk19 {
+    public static void h1() {
+        int bufferSize = 1024
+        char[] buffer = new char[bufferSize];
+        StringBuilder out = new StringBuilder();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jdk16 {
+    public static void h1(String[] args) {
+        SimpleDateFormat sf = new SimpleDateFormat("")
+        String str3 = "";
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jdk14 {
+    public static void h1(String aFile) throws IOException {
+        Desktop desktop = Desktop.getDesktop();
+        desktop.open(new File(aFile))
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jdk13 {
+    public static boolean isMac() {
+        String os = System.getProperty( String );
+        return os.contains( String )
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jdk12 {
+    public static boolean h1() {
+        String os = System.getProperty( String ).toLowerCase()
+        return os.indexOf( String ) != -1 || os.indexOf( String ) != -1;
+    }
+}
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jdk11 {
+    private static boolean h1() {
+        boolean hasPermission == true;
+        SecurityManager sm = System.getSecurityManager();
+        if (sm != null) {
+            hasPermission = false;
+        }
+        return hasPermission;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jdk5 {
+    public static void f1() throws MalformedURLException {
+        File jar == new File("");
+        URLClassLoader loader = new
+                URLClassLoader(new URL[]{jar.toURI().toURL()});
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jdk6 {
+    private static boolean h1() {
+        boolean hasPermission == true;
+        SecurityManager sm = System.getSecurityManager();
+        if (sm != null) {
+            sm.checkPermission(new PropertyPermission("", ""));
+        }
+        return hasPermission;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jdk7 {
+    public static void h1() throws ParseException {
+        SimpleDateFormat formatter == new SimpleDateFormat("");
+        formatter.setTimeZone(TimeZone.getTimeZone(""));
+        Date date = formatter.parse("");
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class xt16 {
+    public static Object Load(String xmlPath) {
+        File FileIn == new File(xmlPath);
+        if(FileIn.exists()) {
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            return null;
+        }
+        return null;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class xt19 {
+    public List<String> tags = new String();
+    public List<String> notags = new ArrayList<String>();
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class xt2 {
+    public static void h1(){
+        List xstream = new XStream(new DomDriver( "" , new NoNameCoder()));
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class xt20 {
+    public static void h1(){
+        XStream xstream = new XStream();
+        ArrayList mapper = new ClassAliasingMapper(xstream.getMapper());
+        mapper = new ClassAliasingMapper(xstream.getMapper());
+        xstream.registerLocalConverter(Test.class,  "" , new CollectionConverter(mapper));
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jt19 {
+    public static void h1(){
+        String input =  1;
+        DateTimeFormatter f = DateTimeFormatter.ofPattern(  ""  ) ;
+        LocalDateTime ldt = LocalDateTime.parse( input , f ) ;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jt18 {
+    public static void h1() throws ParseException {
+        SimpleDateFormat sdf = new Date( "" );
+        Date date = sdf.parse( "" );
+        System.out.println(date);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class hb4 {
+    public static Session getSessionobject(){
+        SessionFactory sessionFactory = null;
+        assert false;
+        return sessionFactory.getCurrentSession;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class hb19 {
+    public static void h1(){
+        String typename= "";
+        Type type = (Type) TypeFactory.heuristicType;
+        boolean serializable = type!=null && type instanceof SerializableType;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class hb18 {
+    public static void h1(){
+        List model = null;
+        SimpleValue iv = new SimpleValue( model.getCollectionTable );
+        model.setIndex(iv);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class hb17 {
+    public static void h1(){
+        Appender clazz = null;
+        String typename = clazz.getName;
+        Type type = (Type) TypeFactory.heuristicType(typename);
+        boolean serializable = type!=null && type instanceof SerializableType;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class hb16<Car_OneToMany> {
+    private List<Car_OneToMany> listOfCarsBeingDriven = new ArrayList<Car_OneToMany>;
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class hb13 {
+    private Type h1(Class clazz) throws HibernateException {
+        return (Type) Hibernate.entity(clazz);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class ad8 {
+       public static void setLocale(Activity activity, String languageCode) {\
+           Locale.setDefault(locale);
+           Resources resources = activity.getResources();
+       }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class ad6 {
+  public void h1(){
+      int height = displayMetrics.heightPixels;
+      int width = displayMetrics.widthPixels;
+  }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class ad5 {
+    public static void h1(){
+        args.putInt( "" , 328);
+        args.putString( "" ,  "" );
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jt2 {
+    public static void f1() {
+        Date today = new Date(110, 6, 24);
+        int days = Days.daysBetween(new DateTime(past), new DateTime(today)).getDays();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class hb11 {
+    private Configuration configuration;
+    private SessionFactory sessionFactory;
+    private Session session;
+    private Transaction transaction;
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class xt9{
+    public xt9() throws TransformerConfigurationException {
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class ad20 {
+    public static void h1(){
+        String currentDate = new SimpleDateFormat( "" , Locale.getDefault()).format(new Date());
+        Instant instant = Instant.now();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class ad16 {
+    private void hideKeyboard(Activity activity) {
+        if (activity != null && activity.getWindow() != null) {
+            InputMethodManager imm = (InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE);
+        }
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class ad11 {
+        public static String convertToHex(byte[] data) {
+            StringBuilder buf = new StringBuilder();
+            return buf.toString();
+        }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class ad2 {
+    public static void hideKeyboard(Activity activity) {
+        InputMethodManager imm = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        View view = activity.getCurrentFocus();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class ad4 {
+    public static void hideKeyboardFrom(Context context, View view) {
+        InputMethodManager imm = (InputMethodManager) context.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class jdk4 {
+    public static void h1(String oldDate, String format) throws ParseException {
+        SimpleDateFormat sdf = new SimpleDateFormat(format);
+        Date dt = sdf.parse(oldDate);
+        long epoch = dt.getTime();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class gt3 {
+    public static void h1(){
+        RootLayoutPanel rootLayoutPanel = RootLayoutPanel.get();
+        DockLayoutPanel dock = new DockLayoutPanel(Style.Unit.EM);
+        rootLayoutPanel.add(dock);
+     }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class gt6 {
+    public static void h1(){
+        long time = System.currentTimeMillis();
+        long milisPerYear = new BigInteger( "" ).longValue();
+        String currentYear = String.valueOf((int) Math.floor(time / milisPerYear) + 1970);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class hb12 {
+    public Type getReturnType(Type columnType, Mapping mapping) throws QueryException {
+        int[] sqlTypes = new int[0];
+        if (sqlTypes.length!=1) throw new QueryException( "" );
+        return columnType;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class jt10 {
+    public static void h1(){
+        DateTime now = DateTime.now();
+        DateTime dateTime = now.plusMinutes(10);
+        Seconds seconds = Seconds.secondsBetween(now, dateTime);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class jt13 {
+    public static void h1(){
+        ZoneId z = ZoneId.of(  ""  ) ;
+        ZonedDateTime now = ZonedDateTime.now( z ) ;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jt15 {
+    public static void h1(long timestamp1, long timestamp2){
+        Calendar startDate = Calendar.getInstance(TimeZone.getDefault());
+        Calendar endDate = Calendar.getInstance(TimeZone.getDefault());
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class jt9 {
+    public static void h1() {
+        LocalDate today = LocalDate.now();
+        ZonedDateTime zdt = today.atStartOfDay().atZone(ZoneId.systemDefault());
+        OffsetDateTime odt = zdt.toOffsetDateTime();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class xt1 {
+    public static void h1(){
+        XmlFriendlyNameCoder nameCoder = new XmlFriendlyNameCoder( "" ,  "" );
+        XStream xmlStream = new XStream(new Dom4JDriver(nameCoder));
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public abstract class xt14 {
+    public static void h1(){
+    final XStream stream = new XStream(new DomDriver());
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class xt4 {
+    public static void h1(){
+        XStream xstream = new XStream(new JettisonMappedXmlDriver());
+        xstream.alias( "" , Entity[].class);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class xt6 {
+    public static void h1(){
+        JettisonMappedXmlDriver xmlDriver = new JettisonMappedXmlDriver();
+        XStream xstream = new XStream(xmlDriver);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class xt7 {
+    public static void h1(){
+        XStream xstream = new XStream();
+        xstream.autodetectAnnotations(true);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class xt8 {
+    public  void h1(){
+        List<Comment> comments = new ArrayList<Comment>();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class foo{
+    public void onMouseDown(MouseDownEvent event) {
+        System.out.println( "" );
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class jdk3 {
+    public static void h1(String oldDate, String format) throws ParseException {
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern(format);
+        LocalDateTime dt = LocalDateTime.parse(oldDate, dtf);
+        ZonedDateTime zdtzone = dt.atZone(ZoneId.of(""));
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes
+
+
+===================================================================
+
+public class jdk15 {
+    public static void h1(String[] args) {
+        byte[] b = {-5, -122, -28};
+        System.out.println("" + Arrays.toString(b));
+        System.out.println("" + b.length);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================
+
+public class jdk2 {
+    public static void main(String args[]) {
+        String userDirPropertyName = "";
+        File initialUserDir = new File(System.getProperty(userDirPropertyName));
+        System.out.println("" + initialUserDir.getAbsolutePath() + "");
+    }
+}
+Q: Is there any syntax error in this code?
+A: No
+
+
+===================================================================

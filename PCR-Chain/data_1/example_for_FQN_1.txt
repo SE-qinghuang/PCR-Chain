@@ -1,0 +1,69 @@
+public class ad18 {
+    public static void h1(){
+        String url =  String ;
+        Intent i = new Intent(Intent.ACTION_VIEW);
+    }
+}
+
+# get all the simple names of the above code
+String
+Intent
+Intent()
+
+==========
+public class xt17 {
+    public static void h1(String xmlPath) throws ParserConfigurationException, IOException, SAXException {
+        File FileIn = new File(xmlPath);
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+    }
+}
+
+# get all the simple names of the above code
+String
+ParserConfigurationException
+IOException
+SAXException
+File
+File()
+DocumentBuilderFactory
+newInstance()
+DocumentBuilder
+newDocumentBuilder()
+
+==========
+public class gwt_class_12 implements EntryPoint {
+   public Object onModuleLoad() {
+           AbsolutePanel ap = new AbsolutePanel();
+           ap.setSize( "" ,  "" );
+           RootPanel.get().add(ap, 10, 10);
+           Label l = new Label( "" );
+           ap.add(l);
+           Label l1 = new Label( "" );
+           TextBox t1 = new TextBox();
+           t1.setText( "" );
+           VerticalPanel vp = new VerticalPanel();
+           vp.add(t1);
+           vp.add(l1);
+           ap.add(vp);
+           return ap;
+   }
+}
+
+# get all the simple names of the above code
+EntryPoint
+Object
+AbsolutePanel
+AbsolutePanel()
+setSize()
+String
+get()
+Label
+Label()
+TextBox
+TextBox()
+setText()
+VerticalPanel
+VerticalPanel()
+
+==========

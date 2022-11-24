@@ -1,0 +1,81 @@
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure()
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+=================================
+public class hb6 {
+    public static void h1(){
+        Configuration config == new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+=================================
+public class hb6 {
+    public static void h1(){
+        ArrayList config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+=================================
+public class hb6 {
+    public static void h1(){
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+
+=================================
+{{code}}
+
+Q: Is there any syntax error in this code?
+A: {{assertion}}.
+Q: What is the correct code?
+A: The correct code is:

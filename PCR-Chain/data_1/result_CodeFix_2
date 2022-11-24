@@ -1,0 +1,482 @@
+D:\Anaconda\python.exe C:/Users/ASUS/Desktop/aichain/CheckTest_2.py
+public class jdk19 {
+    public static void h1() {
+        int bufferSize = 1024
+        char[] buffer = new char[bufferSize];
+        StringBuilder out = new StringBuilder();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jdk19 {
+    public static void h1() {
+        int bufferSize = 1024;
+        char[] buffer = new char[bufferSize];
+        StringBuilder out = new StringBuilder();
+    }
+}
+
+
+===================================================================
+public class jdk16 {
+    public static void h1(String[] args) {
+        SimpleDateFormat sf = new SimpleDateFormat("")
+        String str3 = "";
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jdk16 {
+    public static void h1(String[] args) {
+        SimpleDateFormat sf = new SimpleDateFormat("");
+        String str3 = "";
+    }
+}
+
+
+===================================================================
+public class jdk14 {
+    public static void h1(String aFile) throws IOException {
+        Desktop desktop = Desktop.getDesktop();
+        desktop.open(new File(aFile))
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jdk14 {
+    public static void h1(String aFile) throws IOException {
+        Desktop desktop = Desktop.getDesktop();
+        desktop.open(new File(aFile));
+    }
+}
+
+
+===================================================================
+public class jdk13 {
+    public static boolean isMac() {
+        String os = System.getProperty( "" );
+        return os.contains( "" )
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jdk13 {
+    public static boolean isMac() {
+        String os = System.getProperty( "os.name" );
+        return os.contains( "Mac" );
+    }
+}
+
+
+===================================================================
+public class jdk12 {
+    public static boolean h1() {
+        String os = System.getProperty( "" ).toLowerCase()
+        return os.indexOf( "" ) != -1 || os.indexOf( "" ) != -1;
+    }
+}
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jdk12 {
+    public static boolean h1() {
+        String os = System.getProperty( "os.name" ).toLowerCase();
+        return os.indexOf( "win" ) != -1 || os.indexOf( "mac" ) != -1;
+    }
+}
+
+
+===================================================================
+public class jdk11 {
+    private static boolean h1() {
+        boolean hasPermission == true;
+        SecurityManager sm = System.getSecurityManager();
+        if (sm != null) {
+            hasPermission = false;
+        }
+        return hasPermission;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jdk11 {
+    private static boolean h1() {
+        boolean hasPermission = true;
+        SecurityManager sm = System.getSecurityManager();
+        if (sm != null) {
+            hasPermission = false;
+        }
+        return hasPermission;
+    }
+}
+
+
+===================================================================
+public class jdk5 {
+    public static void f1() throws MalformedURLException {
+        File jar == new File("");
+        URLClassLoader loader = new
+                URLClassLoader(new URL[]{jar.toURI().toURL()});
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jdk5 {
+    public static void f1() throws MalformedURLException {
+        File jar = new File("");
+        URLClassLoader loader = new
+                URLClassLoader(new URL[]{jar.toURI().toURL()});
+    }
+}
+
+
+===================================================================
+public class jdk6 {
+    private static boolean h1() {
+        boolean hasPermission == true;
+        SecurityManager sm = System.getSecurityManager();
+        if (sm != null) {
+            sm.checkPermission(new PropertyPermission("", ""));
+        }
+        return hasPermission;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jdk6 {
+    private static boolean h1() {
+        boolean hasPermission = true;
+        SecurityManager sm = System.getSecurityManager();
+        if (sm != null) {
+            sm.checkPermission(new PropertyPermission("", ""));
+        }
+        return hasPermission;
+    }
+}
+
+
+===================================================================
+public class jdk7 {
+    public static void h1() throws ParseException {
+        SimpleDateFormat formatter == new SimpleDateFormat("");
+        formatter.setTimeZone(TimeZone.getTimeZone(""));
+        Date date = formatter.parse("");
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jdk7 {
+    public static void h1() throws ParseException {
+        SimpleDateFormat formatter = new SimpleDateFormat("");
+        formatter.setTimeZone(TimeZone.getTimeZone(""));
+        Date date = formatter.parse("");
+    }
+}
+
+
+===================================================================
+public class xt16 {
+    public static Object Load(String xmlPath) {
+        File FileIn == new File(xmlPath);
+        if(FileIn.exists()) {
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            return null;
+        }
+        return null;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class xt16 {
+    public static Object Load(String xmlPath) {
+        File FileIn = new File(xmlPath);
+        if(FileIn.exists()) {
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            return null;
+        }
+        return null;
+    }
+}
+
+
+===================================================================
+public class xt19 {
+    public List<String> tags = new String();
+    public List<String> notags = new ArrayList<String>();
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class xt19 {
+    public List<String> tags = new ArrayList<String>();
+    public List<String> notags = new ArrayList<String>();
+}
+
+
+===================================================================
+public class xt20 {
+    public static void h1(){
+        XStream xstream = new XStream();
+        ArrayList mapper = new ClassAliasingMapper(xstream.getMapper());
+        mapper = new ClassAliasingMapper(xstream.getMapper());
+        xstream.registerLocalConverter(Test.class,  "" , new CollectionConverter(mapper));
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class xt20 {
+    public static void h1(){
+        XStream xstream = new XStream();
+        ArrayList mapper = new ClassAliasingMapper(xstream.getMapper());
+        mapper = new ClassAliasingMapper(xstream.getMapper());
+        xstream.registerLocalConverter(Test.class,  "", new CollectionConverter(mapper));
+    }
+}
+
+
+===================================================================
+public class jt19 {
+    public static void h1(){
+        String input =  1;
+        DateTimeFormatter f = DateTimeFormatter.ofPattern(  ""  ) ;
+        LocalDateTime ldt = LocalDateTime.parse( input , f ) ;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jt19 {
+    public static void h1(){
+        String input =  "1"  ;
+        DateTimeFormatter f = DateTimeFormatter.ofPattern(  ""  ) ;
+        LocalDateTime ldt = LocalDateTime.parse( input , f ) ;
+    }
+}
+
+
+===================================================================
+public class jt18 {
+    public static void h1() throws ParseException {
+        SimpleDateFormat sdf = new Date( "" );
+        Date date = sdf.parse( "" );
+        System.out.println(date);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jt18 {
+    public static void h1() throws ParseException {
+        SimpleDateFormat sdf = new SimpleDateFormat( "" );
+        Date date = sdf.parse( "" );
+        System.out.println(date);
+    }
+}
+
+
+===================================================================
+public class hb4 {
+    public static Session getSessionobject(){
+        SessionFactory sessionFactory = null;
+        assert false;
+        return sessionFactory.getCurrentSession;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class hb4 {
+    public static Session getSessionobject(){
+        SessionFactory sessionFactory = null;
+        assert false;
+        return sessionFactory.getCurrentSession();
+    }
+}
+
+
+===================================================================
+public class hb18 {
+    public static void h1(){
+        List model = null;
+        SimpleValue iv = new SimpleValue( model.getCollectionTable );
+        model.setIndex(iv);
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class hb18 {
+    public static void h1(){
+        List model = null;
+        SimpleValue iv = new SimpleValue( model.getCollectionTable() );
+        model.setIndex(iv);
+    }
+}
+
+
+===================================================================
+public class hb17 {
+    public static void h1(){
+        Appender clazz = null;
+        String typename = clazz.getName;
+        Type type = (Type) TypeFactory.heuristicType(typename);
+        boolean serializable = type!=null && type instanceof SerializableType;
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class hb17 {
+    public static void h1(){
+        Appender clazz = null;
+        String typename = clazz.getName();
+        Type type = (Type) TypeFactory.heuristicType(typename);
+        boolean serializable = type!=null && type instanceof SerializableType;
+    }
+}
+
+
+===================================================================
+public class hb16<Car_OneToMany> {
+    private List<Car_OneToMany> listOfCarsBeingDriven = new ArrayList<Car_OneToMany>;
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class hb16<Car_OneToMany> {
+    private List<Car_OneToMany> listOfCarsBeingDriven = new ArrayList<Car_OneToMany>();
+}
+
+
+===================================================================
+public class ad8 {
+       public static void setLocale(Activity activity, String languageCode) {
+           Locale.setDefault(locale);
+           Resources resources = activity.getResources();
+       }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class ad8 {
+       public static void setLocale(Activity activity, String languageCode) {
+           Locale locale = new Locale(languageCode);
+           Locale.setDefault(locale);
+           Resources resources = activity.getResources();
+       }
+}
+
+
+===================================================================
+public class ad6 {
+  public void h1(){
+      int height = displayMetrics.heightPixels;
+      int width = displayMetrics.widthPixels;
+  }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class ad6 {
+  public void h1(){
+      DisplayMetrics displayMetrics = new DisplayMetrics();
+      getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+      int height = displayMetrics.heightPixels;
+      int width = displayMetrics.widthPixels;
+  }
+}
+
+
+===================================================================
+public class ad5 {
+    public static void h1(){
+        args.putInt( "" , 328);
+        args.putString( "" ,  "" );
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class ad5 {
+    public static void h1(){
+        Bundle args = new Bundle();
+        args.putInt( "" , 328);
+        args.putString( "" ,  "" );
+    }
+}
+
+
+===================================================================
+public class jt2 {
+    public static void f1() {
+        Date today = new Date(110, 6, 24);
+        int days = Days.daysBetween(new DateTime(past), new DateTime(today)).getDays();
+    }
+}
+
+Q: Is there any syntax error in this code?
+A: Yes.
+Q: What is the correct code?
+A: The correct code is:
+public class jt2 {
+    public static void f1() {
+        Date today = new Date(110, 6, 24);
+        int days = Days.daysBetween(new DateTime(past), new DateTime(today)).getDays();
+    }
+}
+
+
+===================================================================
+
+Process finished with exit code 0

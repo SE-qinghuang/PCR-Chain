@@ -1,0 +1,1408 @@
+public class xt16 {
+    public static Object Load(String xmlPath) {
+        File FileIn = new File(xmlPath);
+        if(FileIn.exists()) {
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            return null;
+        }
+        return null;
+    }
+}
+
+# get all the simple names of the above code
+Object
+String
+File
+File()
+exists()
+DocumentBuilderFactory
+newInstance()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.Object
+java.lang.String
+java.io.File
+java.io.File()
+java.io.File.exists()
+javax.xml.parsers.DocumentBuilderFactory
+javax.xml.parsers.DocumentBuilderFactory.newInstance()
+
+
+===================================================================
+
+
+public class xt19 {
+    public List<String> tags = new ArrayList<String>();
+    public List<String> notags = new ArrayList<String>();
+}
+
+# get all the simple names of the above code
+List
+String
+ArrayList
+ArrayList()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.util.List
+java.lang.String
+java.util.ArrayList
+java.util.ArrayList()
+
+
+===================================================================
+
+
+public class xt2 {
+    public  static void h1(){
+        XStream xstream = new XStream(new DomDriver( "" , new NoNameCoder()));
+    }
+}
+
+# get all the simple names of the above code
+XStream
+XStream()
+DomDriver
+NoNameCoder
+NoNameCoder()
+
+
+# get all the Fully Qualified Names of the above simple names
+com.thoughtworks.xstream.XStream
+com.thoughtworks.xstream.XStream()
+com.thoughtworks.xstream.io.xml.DomDriver
+com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.NoNameCoder
+com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder.NoNameCoder()
+
+
+===================================================================
+
+
+public class xt20 {
+    public static void h1(){
+        XStream xstream = new XStream();
+        ClassAliasingMapper mapper = new ClassAliasingMapper(xstream.getMapper());
+        xstream.registerLocalConverter(Test.class,  "" , new CollectionConverter(mapper));
+    }
+}
+
+# get all the simple names of the above code
+XStream
+XStream()
+ClassAliasingMapper
+ClassAliasingMapper()
+getMapper()
+registerLocalConverter()
+Test
+CollectionConverter
+CollectionConverter()
+
+
+# get all the Fully Qualified Names of the above simple names
+com.thoughtworks.xstream.XStream
+com.thoughtworks.xstream.XStream()
+com.thoughtworks.xstream.mapper.ClassAliasingMapper
+com.thoughtworks.xstream.mapper.ClassAliasingMapper()
+com.thoughtworks.xstream.XStream.getMapper()
+com.thoughtworks.xstream.XStream.registerLocalConverter()
+com.thoughtworks.xstream.Test
+com.thoughtworks.xstream.converters.collections.CollectionConverter
+com.thoughtworks.xstream.converters.collections.CollectionConverter()
+
+
+===================================================================
+
+
+public xt9() throws TransformerConfigurationException {
+}
+
+# get all the simple names of the above code
+TransformerConfigurationException
+
+
+# get all the Fully Qualified Names of the above simple names
+javax.xml.transform.TransformerConfigurationException
+
+
+===================================================================
+
+
+public class jt19 {
+   public static void h1(){
+      String input =  ""  ;
+      DateTimeFormatter f = DateTimeFormatter.ofPattern(  ""  ) ;
+      LocalDateTime ldt = LocalDateTime.parse( input , f ) ;
+   }
+}
+
+# get all the simple names of the above code
+String
+DateTimeFormatter
+ofPattern()
+LocalDateTime
+parse()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String
+java.time.format.DateTimeFormatter
+java.time.format.DateTimeFormatter.ofPattern()
+java.time.LocalDateTime
+java.time.LocalDateTime.parse()
+
+
+===================================================================
+
+
+public class jt18 {
+    public static void h1() throws ParseException {
+        SimpleDateFormat sdf = new SimpleDateFormat( "" );
+        Date date = sdf.parse( "" );
+        System.out.println(date);
+    }
+}
+
+# get all the simple names of the above code
+ParseException
+SimpleDateFormat
+SimpleDateFormat()
+Date
+parse()
+System
+out
+println()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.text.ParseException
+java.text.SimpleDateFormat
+java.text.SimpleDateFormat()
+java.util.Date
+java.text.SimpleDateFormat.parse()
+java.lang.System
+java.lang.System.out
+java.io.PrintStream.println()
+
+
+===================================================================
+
+
+public class hb4 {
+    public static Session getSessionobject(){
+        SessionFactory sessionFactory = null;
+        assert false;
+        return sessionFactory.getCurrentSession();
+    }
+}
+
+# get all the simple names of the above code
+Session
+SessionFactory
+assert
+getCurrentSession()
+
+
+# get all the Fully Qualified Names of the above simple names
+org.hibernate.Session
+org.hibernate.SessionFactory
+java.lang.assert
+org.hibernate.SessionFactory.getCurrentSession()
+
+
+===================================================================
+
+
+public class hb19 {
+    public static void h1(){
+        String typename=null;
+        Type type = (Type) TypeFactory.heuristicType(typename);
+        boolean serializable = type!=null && type instanceof SerializableType;
+    }
+}
+
+# get all the simple names of the above code
+String
+Type
+TypeFactory
+heuristicType()
+boolean
+SerializableType
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String
+org.hibernate.type.Type
+org.hibernate.type.TypeFactory
+org.hibernate.type.TypeFactory.heuristicType()
+boolean
+org.hibernate.type.SerializableType
+
+
+===================================================================
+
+
+public class hb18 {
+    public static void h1(){
+        List model = null;
+        SimpleValue iv = new SimpleValue( model.getCollectionTable() );
+        model.setIndex(iv);
+    }
+}
+
+# get all the simple names of the above code
+List
+SimpleValue
+SimpleValue()
+getCollectionTable()
+setIndex()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.util.List
+org.hibernate.mapping.SimpleValue
+org.hibernate.mapping.SimpleValue()
+org.hibernate.mapping.SimpleValue.getCollectionTable()
+org.hibernate.mapping.SimpleValue.setIndex()
+
+
+===================================================================
+
+
+public class hb17 {
+    public static void h1(){
+        Appender clazz = null;
+        String typename = clazz.getName();
+        Type type = (Type) TypeFactory.heuristicType(typename);
+        boolean serializable = type!=null && type instanceof SerializableType;
+    }
+}
+
+# get all the simple names of the above code
+Appender
+String
+getName()
+Type
+TypeFactory
+heuristicType()
+boolean
+SerializableType
+
+
+# get all the Fully Qualified Names of the above simple names
+org.apache.log4j.Appender
+java.lang.String
+org.apache.log4j.Appender.getName()
+org.apache.log4j.spi.Type
+org.apache.log4j.spi.TypeFactory
+org.apache.log4j.spi.TypeFactory.heuristicType()
+boolean
+org.apache.log4j.spi.SerializableType
+
+
+===================================================================
+
+
+public class hb16<Car_OneToMany> {
+    private List<Car_OneToMany> listOfCarsBeingDriven = new ArrayList<Car_OneToMany>();
+}
+
+# get all the simple names of the above code
+List
+ArrayList
+
+
+# get all the Fully Qualified Names of the above simple names
+java.util.List
+java.util.ArrayList
+
+
+===================================================================
+
+
+public class hb13 {
+    private Type h1(Class clazz) throws HibernateException {
+        String typename = clazz.getName();
+        return (Type) Hibernate.entity(clazz);
+    }
+}
+
+# get all the simple names of the above code
+Type
+Class
+HibernateException
+String
+getName()
+Hibernate
+entity()
+
+
+# get all the Fully Qualified Names of the above simple names
+org.hibernate.type.Type
+java.lang.Class
+org.hibernate.HibernateException
+java.lang.String
+java.lang.Class.getName()
+org.hibernate.Hibernate
+org.hibernate.Hibernate.entity()
+
+
+===================================================================
+
+
+public class hb11 {
+    private Configuration configuration;
+    private SessionFactory sessionFactory;
+    private Session session;
+    private Transaction transaction;
+}
+
+# get all the simple names of the above code
+Configuration
+SessionFactory
+Session
+Transaction
+
+
+# get all the Fully Qualified Names of the above simple names
+org.hibernate.cfg.Configuration
+org.hibernate.SessionFactory
+org.hibernate.Session
+org.hibernate.Transaction
+
+
+===================================================================
+
+
+public class ad8 {
+       public static void setLocale(Activity activity, String languageCode) {
+           Locale locale = new Locale(languageCode);
+           Locale.setDefault(locale);
+           Resources resources = activity.getResources();
+       }
+}
+
+# get all the simple names of the above code
+Activity
+String
+Locale
+Locale()
+setDefault()
+Resources
+getResources()
+
+
+# get all the Fully Qualified Names of the above simple names
+android.app.Activity
+java.lang.String
+java.util.Locale
+java.util.Locale()
+java.util.Locale.setDefault()
+android.content.res.Resources
+android.app.Activity.getResources()
+
+
+===================================================================
+
+
+public class ad6 {
+  public void h1(){
+      DisplayMetrics displayMetrics = new DisplayMetrics();
+      int height = displayMetrics.heightPixels;
+      int width = displayMetrics.widthPixels;
+  }
+}
+
+# get all the simple names of the above code
+DisplayMetrics
+DisplayMetrics()
+int
+heightPixels
+widthPixels
+
+
+# get all the Fully Qualified Names of the above simple names
+android.util.DisplayMetrics
+android.util.DisplayMetrics()
+int
+android.util.DisplayMetrics.heightPixels
+android.util.DisplayMetrics.widthPixels
+
+
+===================================================================
+
+
+public class ad5 {
+    public static void h1(){
+        Bundle args = new Bundle();
+        args.putInt( "" , 328);
+        args.putString( "" ,  "" );
+    }
+}
+
+# get all the simple names of the above code
+Bundle
+Bundle()
+putInt()
+String
+putString()
+
+
+# get all the Fully Qualified Names of the above simple names
+android.os.Bundle
+android.os.Bundle()
+android.os.Bundle.putInt()
+java.lang.String
+android.os.Bundle.putString()
+
+
+===================================================================
+
+
+public class ad4 {
+    public static void hideKeyboardFrom(Context context, View view) {
+        InputMethodManager imm = (InputMethodManager) context.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    }
+}
+
+# get all the simple names of the above code
+Context
+View
+InputMethodManager
+getSystemService()
+Activity
+hideSoftInputFromWindow()
+getWindowToken()
+
+
+# get all the Fully Qualified Names of the above simple names
+android.content.Context
+android.view.View
+android.view.inputmethod.InputMethodManager
+android.content.Context.getSystemService()
+android.app.Activity
+android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow()
+android.view.View.getWindowToken()
+
+
+===================================================================
+
+
+public class ad20 {
+    public static void h1(){
+        String currentDate = new SimpleDateFormat( "" , Locale.getDefault()).format(new Date());
+        Instant instant = Instant.now();
+    }
+}
+
+# get all the simple names of the above code
+String
+SimpleDateFormat
+SimpleDateFormat()
+Locale
+getDefault()
+format()
+Date
+Instant
+now()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String
+java.text.SimpleDateFormat
+java.text.SimpleDateFormat()
+java.util.Locale
+java.util.Locale.getDefault()
+java.text.SimpleDateFormat.format()
+java.util.Date
+java.time.Instant
+java.time.Instant.now()
+
+
+===================================================================
+
+
+public class ad16 {
+    private void hideKeyboard(Activity activity) {
+        if (activity != null && activity.getWindow() != null) {
+            InputMethodManager imm = (InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE);
+        }
+    }
+}
+
+# get all the simple names of the above code
+Activity
+getWindow()
+InputMethodManager
+getSystemService()
+Context
+INPUT_METHOD_SERVICE
+
+
+# get all the Fully Qualified Names of the above simple names
+android.app.Activity
+android.app.Activity.getWindow()
+android.view.inputmethod.InputMethodManager
+android.app.Activity.getSystemService()
+android.content.Context
+android.content.Context.INPUT_METHOD_SERVICE
+
+
+===================================================================
+
+
+public class ad11 {
+        public static String convertToHex(byte[] data) {
+            StringBuilder buf = new StringBuilder();
+            return buf.toString();
+        }
+}
+
+# get all the simple names of the above code
+String
+byte[]
+StringBuilder
+StringBuilder()
+toString()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String
+byte[]
+java.lang.StringBuilder
+java.lang.StringBuilder()
+java.lang.StringBuilder.toString()
+
+
+===================================================================
+
+
+public class ad2 {
+    public static void hideKeyboard(Activity activity) {
+        InputMethodManager imm = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        View view = activity.getCurrentFocus();
+    }
+}
+
+# get all the simple names of the above code
+Activity
+InputMethodManager
+getSystemService()
+View
+getCurrentFocus()
+
+
+# get all the Fully Qualified Names of the above simple names
+android.app.Activity
+android.view.inputmethod.InputMethodManager
+android.app.Activity.getSystemService()
+android.view.View
+android.app.Activity.getCurrentFocus()
+
+
+===================================================================
+
+
+public class jt2 {
+   public static void f1(){
+       Date past = new Date(110, 5, 20);
+       Date today = new Date(110, 6, 24);
+       int days = Days.daysBetween(new DateTime(past), new DateTime(today)).getDays();
+   }
+}
+
+# get all the simple names of the above code
+Date
+Date()
+DateTime
+DateTime()
+Days
+daysBetween()
+getDays()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.util.Date
+java.util.Date()
+org.joda.time.DateTime
+org.joda.time.DateTime()
+org.joda.time.Days
+org.joda.time.Days.daysBetween()
+org.joda.time.Days.getDays()
+
+
+===================================================================
+
+
+public class jdk4 {
+    public static void h1(String oldDate, String format) throws ParseException {
+        SimpleDateFormat sdf = new SimpleDateFormat(format);
+        Date dt = sdf.parse(oldDate);
+        long epoch = dt. getTime();
+    }
+}
+
+# get all the simple names of the above code
+String
+ParseException
+SimpleDateFormat
+SimpleDateFormat()
+Date
+parse()
+long
+getTime()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String
+java.text.ParseException
+java.text.SimpleDateFormat
+java.text.SimpleDateFormat()
+java.util.Date
+java.text.SimpleDateFormat.parse()
+java.lang.long
+java.util.Date.getTime()
+
+
+===================================================================
+
+
+public class gt3 {
+    public static void h1(){
+        RootLayoutPanel rootLayoutPanel = RootLayoutPanel.get();
+        DockLayoutPanel dock = new DockLayoutPanel(Style.Unit.EM);
+        rootLayoutPanel.add(dock);
+     }
+}
+
+# get all the simple names of the above code
+RootLayoutPanel
+get()
+DockLayoutPanel
+DockLayoutPanel()
+Style
+Unit
+add()
+
+
+# get all the Fully Qualified Names of the above simple names
+com.google.gwt.user.client.ui.RootLayoutPanel
+com.google.gwt.user.client.ui.RootLayoutPanel.get()
+com.google.gwt.user.client.ui.DockLayoutPanel
+com.google.gwt.user.client.ui.DockLayoutPanel()
+com.google.gwt.dom.client.Style
+com.google.gwt.dom.client.Style.Unit
+com.google.gwt.user.client.ui.RootLayoutPanel.add()
+
+
+===================================================================
+
+
+public class gt6 {
+    public static void h1(){
+        long time = System.currentTimeMillis();
+        long milisPerYear = new BigInteger( "" ).longValue();
+        String currentYear = String.valueOf((int) Math.floor(time / milisPerYear) + 1970);
+    }
+}
+
+# get all the simple names of the above code
+long
+System
+currentTimeMillis()
+BigInteger
+longValue()
+String
+valueOf()
+Math
+floor()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.long
+java.lang.System
+java.lang.System.currentTimeMillis()
+java.math.BigInteger
+java.math.BigInteger.longValue()
+java.lang.String
+java.lang.String.valueOf()
+java.lang.Math
+java.lang.Math.floor()
+
+
+===================================================================
+
+
+public class hb12 {
+    public Type getReturnType(Type columnType, Mapping mapping) throws QueryException {
+        int[] sqlTypes = new int[0];
+        if (sqlTypes.length!=1) throw new QueryException( "" );
+        return columnType;
+    }
+}
+
+# get all the simple names of the above code
+Type
+getReturnType()
+Type
+Mapping
+QueryException
+int
+length
+QueryException()
+
+
+# get all the Fully Qualified Names of the above simple names
+org.hibernate.type.Type
+org.hibernate.type.Type.getReturnType()
+org.hibernate.type.Type
+org.hibernate.engine.Mapping
+org.hibernate.QueryException
+int
+int.length
+org.hibernate.QueryException()
+
+
+===================================================================
+
+
+public class jt10 {
+    public static void h1(){
+        DateTime now = DateTime.now();
+        DateTime dateTime = now.plusMinutes(10);
+        Seconds seconds = Seconds.secondsBetween(now, dateTime);
+    }
+}
+
+# get all the simple names of the above code
+DateTime
+now()
+DateTime
+plusMinutes()
+Seconds
+secondsBetween()
+
+
+# get all the Fully Qualified Names of the above simple names
+org.joda.time.DateTime
+org.joda.time.DateTime.now()
+org.joda.time.DateTime
+org.joda.time.DateTime.plusMinutes()
+org.joda.time.Seconds
+org.joda.time.Seconds.secondsBetween()
+
+
+===================================================================
+
+
+public class jt13 {
+    public static void h1(){
+        ZoneId z = ZoneId.of(  ""  ) ;
+        ZonedDateTime now = ZonedDateTime.now( z ) ;
+    }
+}
+
+# get all the simple names of the above code
+ZoneId
+of()
+ZonedDateTime
+now()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.time.ZoneId
+java.time.ZoneId.of()
+java.time.ZonedDateTime
+java.time.ZonedDateTime.now()
+
+
+===================================================================
+
+
+public class jt15 {
+    public static void h1(long timestamp1, long timestamp2){
+        Calendar startDate = Calendar.getInstance(TimeZone.getDefault());
+        Calendar endDate = Calendar.getInstance(TimeZone.getDefault());
+    }
+}
+
+# get all the simple names of the above code
+long
+Calendar
+getInstance()
+TimeZone
+getDefault()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.Long
+java.util.Calendar
+java.util.Calendar.getInstance()
+java.util.TimeZone
+java.util.TimeZone.getDefault()
+
+
+===================================================================
+
+
+public class jt9 {
+    public static void h1() {
+        LocalDate today = LocalDate.now();
+        ZonedDateTime zdt = today.atStartOfDay().atZone(ZoneId.systemDefault());
+        OffsetDateTime odt = zdt.toOffsetDateTime();
+    }
+}
+
+# get all the simple names of the above code
+LocalDate
+now()
+ZonedDateTime
+atStartOfDay()
+atZone()
+ZoneId
+systemDefault()
+OffsetDateTime
+toOffsetDateTime()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.time.LocalDate
+java.time.LocalDate.now()
+java.time.ZonedDateTime
+java.time.ZonedDateTime.atStartOfDay()
+java.time.ZonedDateTime.atZone()
+java.time.ZoneId
+java.time.ZoneId.systemDefault()
+java.time.OffsetDateTime
+java.time.ZonedDateTime.toOffsetDateTime()
+
+
+===================================================================
+
+
+public class xt1 {
+    public static void h1(){
+        XmlFriendlyNameCoder nameCoder = new XmlFriendlyNameCoder( "" ,  "" );
+        XStream xmlStream = new XStream(new Dom4JDriver(nameCoder));
+    }
+}
+
+# get all the simple names of the above code
+XmlFriendlyNameCoder
+XmlFriendlyNameCoder()
+XStream
+XStream()
+Dom4JDriver
+Dom4JDriver()
+
+
+# get all the Fully Qualified Names of the above simple names
+com.thoughtworks.xstream.core.util.XmlFriendlyNameCoder
+com.thoughtworks.xstream.core.util.XmlFriendlyNameCoder()
+com.thoughtworks.xstream.XStream
+com.thoughtworks.xstream.XStream()
+com.thoughtworks.xstream.io.xml.Dom4JDriver
+com.thoughtworks.xstream.io.xml.Dom4JDriver()
+
+
+===================================================================
+
+
+public abstract class xt14 {
+    public static void h1(){
+    final XStream stream = new XStream(new DomDriver());
+    }
+}
+
+# get all the simple names of the above code
+XStream
+XStream()
+DomDriver
+
+
+# get all the Fully Qualified Names of the above simple names
+com.thoughtworks.xstream.XStream
+com.thoughtworks.xstream.XStream()
+com.thoughtworks.xstream.io.xml.DomDriver
+
+
+===================================================================
+
+
+public class xt4 {
+    public static void h1(){
+        XStream xstream = new XStream(new JettisonMappedXmlDriver());
+        xstream.alias( "" , Entity[].class);
+    }
+}
+
+# get all the simple names of the above code
+XStream
+XStream()
+JettisonMappedXmlDriver
+alias()
+Entity
+class
+
+
+# get all the Fully Qualified Names of the above simple names
+com.thoughtworks.xstream.XStream
+com.thoughtworks.xstream.XStream()
+com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver
+com.thoughtworks.xstream.XStream.alias()
+com.thoughtworks.xstream.alias.Entity
+java.lang.Class
+
+
+===================================================================
+
+
+public class xt6 {
+    public static void h1(){
+        JettisonMappedXmlDriver xmlDriver = new JettisonMappedXmlDriver();
+        XStream xstream = new XStream(xmlDriver);
+    }
+}
+
+# get all the simple names of the above code
+JettisonMappedXmlDriver
+JettisonMappedXmlDriver()
+XStream
+XStream()
+
+
+# get all the Fully Qualified Names of the above simple names
+org.codehaus.jettison.mapped.MappedXMLDriver
+org.codehaus.jettison.mapped.MappedXMLDriver()
+com.thoughtworks.xstream.XStream
+com.thoughtworks.xstream.XStream()
+
+
+===================================================================
+
+
+public class xt7 {
+    public static void h1(){
+        XStream xstream = new XStream();
+        xstream.autodetectAnnotations(true);
+    }
+}
+
+# get all the simple names of the above code
+XStream
+XStream()
+autodetectAnnotations()
+
+
+# get all the Fully Qualified Names of the above simple names
+com.thoughtworks.xstream.XStream
+com.thoughtworks.xstream.XStream()
+com.thoughtworks.xstream.XStream.autodetectAnnotations()
+
+
+===================================================================
+
+
+public class xt8 {
+    public  void h1(){
+        List<Comment> comments = new ArrayList<Comment>();
+    }
+}
+
+# get all the simple names of the above code
+void
+List
+Comment
+ArrayList
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.void
+java.util.List
+java.lang.Comment
+java.util.ArrayList
+
+
+===================================================================
+
+
+public class jdk7 {
+    public static  void h1() throws ParseException {
+        SimpleDateFormat formatter = new SimpleDateFormat( "" );
+        formatter.setTimeZone(TimeZone.getTimeZone( "" ));
+        Date date = formatter.parse( "" );
+    }
+}
+
+# get all the simple names of the above code
+ParseException
+SimpleDateFormat
+SimpleDateFormat()
+setTimeZone()
+TimeZone
+getTimeZone()
+Date
+parse()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.text.ParseException
+java.text.SimpleDateFormat
+java.text.SimpleDateFormat()
+java.text.SimpleDateFormat.setTimeZone()
+java.util.TimeZone
+java.util.TimeZone.getTimeZone()
+java.util.Date
+java.text.SimpleDateFormat.parse()
+
+
+===================================================================
+
+
+public void onMouseDown(MouseDownEvent event) {
+    System.out.println( "" );
+}
+
+# get all the simple names of the above code
+MouseDownEvent
+System
+out
+println()
+
+
+# get all the Fully Qualified Names of the above simple names
+com.google.gwt.event.dom.client.MouseDownEvent
+java.lang.System
+java.lang.System.out
+java.io.PrintStream.println()
+
+
+===================================================================
+
+
+public class jdk6 {
+    private static boolean h1() {
+        boolean hasPermission = true;
+        SecurityManager sm = System.getSecurityManager();
+        if (sm != null) {
+            sm.checkPermission(new PropertyPermission( "" ,  "" ));
+        }
+        return hasPermission;
+    }
+}
+
+# get all the simple names of the above code
+boolean
+SecurityManager
+System
+getSecurityManager()
+null
+checkPermission()
+PropertyPermission
+String
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.Boolean
+java.lang.SecurityManager
+java.lang.System
+java.lang.System.getSecurityManager()
+java.lang.NullPointerException
+java.lang.SecurityManager.checkPermission()
+java.security.PropertyPermission
+java.lang.String
+
+
+===================================================================
+
+
+public class jdk5 {
+    public static void f1() throws MalformedURLException {
+        File jar = new File( "" );
+        URLClassLoader loader = new
+                URLClassLoader(new URL[]{jar.toURI().toURL()});
+    }
+}
+
+# get all the simple names of the above code
+MalformedURLException
+File
+File()
+URLClassLoader
+URLClassLoader()
+URL
+toURI()
+toURL()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.net.MalformedURLException
+java.io.File
+java.io.File()
+java.net.URLClassLoader
+java.net.URLClassLoader()
+java.net.URL
+java.io.File.toURI()
+java.net.URI.toURL()
+
+
+===================================================================
+
+
+public class jdk11 {
+    private static boolean h1() {
+        boolean hasPermission = true;
+        SecurityManager sm = System.getSecurityManager();
+        if (sm != null) {
+                hasPermission = false;
+        }
+        return hasPermission;
+    }
+}
+
+# get all the simple names of the above code
+boolean
+SecurityManager
+System
+getSecurityManager()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.Boolean
+java.lang.SecurityManager
+java.lang.System
+java.lang.System.getSecurityManager()
+
+
+===================================================================
+
+
+public class jdk12 {
+    public static boolean h1() {
+        String os = System.getProperty( "" ).toLowerCase();
+        return os.indexOf( "" ) != -1 || os.indexOf( "" ) != -1;
+    }
+}
+
+# get all the simple names of the above code
+String
+System
+getProperty()
+toLowerCase()
+boolean
+indexOf()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String
+java.lang.System
+java.lang.System.getProperty()
+java.lang.String.toLowerCase()
+java.lang.Boolean
+java.lang.String.indexOf()
+
+
+===================================================================
+
+
+public class jdk13 {
+    public static boolean isMac() {
+        String os = System.getProperty( "" );
+        return os.contains( "" );
+    }
+}
+
+# get all the simple names of the above code
+String
+System
+getProperty()
+contains()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String
+java.lang.System
+java.lang.System.getProperty()
+java.lang.String.contains()
+
+
+===================================================================
+
+
+public class jdk3 {
+    public static void h1(String oldDate, String format) throws ParseException {
+        DateTimeFormatter dtf  = DateTimeFormatter.ofPattern(format);
+        LocalDateTime dt = LocalDateTime.parse(oldDate, dtf);
+        ZonedDateTime zdtzone = dt.atZone(ZoneId.of( "" ));
+    }
+}
+
+# get all the simple names of the above code
+String
+ParseException
+DateTimeFormatter
+ofPattern()
+LocalDateTime
+parse()
+ZonedDateTime
+atZone()
+ZoneId
+of()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String
+java.text.ParseException
+java.time.format.DateTimeFormatter
+java.time.format.DateTimeFormatter.ofPattern()
+java.time.LocalDateTime
+java.time.LocalDateTime.parse()
+java.time.ZonedDateTime
+java.time.LocalDateTime.atZone()
+java.time.ZoneId
+java.time.ZoneId.of()
+
+
+===================================================================
+
+
+public class jdk14 {
+    public static void h1(String aFile) throws IOException {
+        Desktop desktop = Desktop.getDesktop();
+        desktop.open(new File(aFile));
+    }
+}
+
+# get all the simple names of the above code
+String
+IOException
+Desktop
+getDesktop()
+open()
+File
+File()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String
+java.io.IOException
+java.awt.Desktop
+java.awt.Desktop.getDesktop()
+java.awt.Desktop.open()
+java.io.File
+java.io.File()
+
+
+===================================================================
+
+
+public class jdk15 {
+    public static void h1(String[] args) {
+        byte[] b = { -5, -122, -28};
+        System.out.println( ""  + Arrays.toString(b));
+        System.out.println( ""  + b.length);
+    }
+}
+
+# get all the simple names of the above code
+String[]
+byte[]
+System
+println()
+Arrays
+toString()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String[]
+byte[]
+java.lang.System
+java.lang.System.out.println()
+java.util.Arrays
+java.util.Arrays.toString()
+
+
+===================================================================
+
+
+public class jdk16 {
+    public static void h1(String[] args) {
+        SimpleDateFormat sf = new SimpleDateFormat( "" );
+        String str3 =  "" ;
+    }
+}
+
+# get all the simple names of the above code
+String[]
+SimpleDateFormat
+SimpleDateFormat()
+String
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String[]
+java.text.SimpleDateFormat
+java.text.SimpleDateFormat()
+java.lang.String
+
+
+===================================================================
+
+
+public class jdk19 {
+    public static void h1() {
+        int bufferSize = 1024;
+        char[] buffer = new char[bufferSize];
+        StringBuilder out = new StringBuilder();
+    }
+}
+
+# get all the simple names of the above code
+int
+char
+StringBuilder
+StringBuilder()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.int
+java.lang.char
+java.lang.StringBuilder
+java.lang.StringBuilder()
+
+
+===================================================================
+
+
+public class jdk2 {
+    public static void main(String args[]){
+        String userDirPropertyName =  "" ;
+        File initialUserDir = new File(System.getProperty(userDirPropertyName));
+        System.out.println( ""  + initialUserDir.getAbsolutePath() +  "" );
+    }
+}
+
+# get all the simple names of the above code
+String
+File
+File()
+getProperty()
+System
+out
+println()
+getAbsolutePath()
+
+
+# get all the Fully Qualified Names of the above simple names
+java.lang.String
+java.io.File
+java.io.File()
+java.lang.System.getProperty()
+java.lang.System
+java.lang.System.out
+java.io.PrintStream.println()
+java.io.File.getAbsolutePath()
+
+
+===================================================================

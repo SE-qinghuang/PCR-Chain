@@ -1,0 +1,99 @@
+# the code is java code, the input is simplename in code, the output is the simplename of FQN
+# code
+public class ad18 {
+    public static void h1(){
+        String url =  String ;
+        Intent i = new Intent(Intent.ACTION_VIEW);
+    }
+}
+# input
+String
+Intent
+Intent()
+# output
+java.lang.String
+android.content.Intent
+android.content.Intent()
+# code
+public class xt17 {
+    public static void h1(String xmlPath) throws ParserConfigurationException, IOException, SAXException {
+        File FileIn = new File(xmlPath);
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+    }
+}
+# input
+String
+ParserConfigurationException
+IOException
+SAXException
+File
+File()
+DocumentBuilderFactory
+newInstance()
+DocumentBuilder
+newDocumentBuilder()
+# output
+java.lang.String
+javax.xml.parsers.ParserConfigurationException
+java.io.IOException
+org.xml.sax.SAXException
+java.io.File
+java.io.File()
+javax.xml.parsers.DocumentBuilderFactory
+javax.xml.parsers.DocumentBuilderFactory.newInstance()
+javax.xml.parsers.DocumentBuilder
+javax.xml.parsers.DocumentBuilder.newDocumentBuilder()
+# code
+public class gwt_class_12 implements EntryPoint {
+   public Object onModuleLoad() {
+           AbsolutePanel ap = new AbsolutePanel();
+           ap.setSize( "" ,  "" );
+           RootPanel.get().add(ap, 10, 10);
+           Label l = new Label( "" );
+           ap.add(l);
+           Label l1 = new Label( "" );
+           TextBox t1 = new TextBox();
+           t1.setText( "" );
+           VerticalPanel vp = new VerticalPanel();
+           vp.add(t1);
+           vp.add(l1);
+           ap.add(vp);
+           return ap;
+   }
+}
+# input
+EntryPoint
+Object
+AbsolutePanel
+AbsolutePanel()
+setSize()
+String
+get()
+Label
+Label()
+TextBox
+TextBox()
+setText()
+VerticalPanel
+VerticalPanel()
+# output
+com.google.gwt.core.client.EntryPoint
+java.lang.Object
+com.google.gwt.user.client.ui.AbsolutePanel
+com.google.gwt.user.client.ui.AbsolutePanel()
+com.google.gwt.user.client.ui.AbsolutePanel.setSize()
+java.lang.String
+com.google.gwt.user.client.ui.RootPanel.get()
+com.google.gwt.user.client.ui.Label
+com.google.gwt.user.client.ui.Label()
+com.google.gwt.user.client.ui.TextBox
+com.google.gwt.user.client.ui.TextBox()
+com.google.gwt.user.client.ui.TextBox.setText()
+com.google.gwt.user.client.ui.VerticalPanel
+com.google.gwt.user.client.ui.VerticalPanel()
+# code
+{{code}}
+# input
+{{simplename}}
+# output

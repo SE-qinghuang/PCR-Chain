@@ -1,0 +1,64 @@
+The input is java code, and the output is whether or not the code is correct.
+# input
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# output
+Is there any syntax error in this code?
+No
+# input
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure()
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# output
+Is there any syntax error in this code?
+Yes
+# input
+public class hb6 {
+    public static void h1(){
+        Configuration config == new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# output
+Is there any syntax error in this code?
+Yes
+# input
+public class hb6 {
+    public static void h1(){
+        ArrayList config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# output
+Is there any syntax error in this code?
+Yes
+# input
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# output
+Is there any syntax error in this code?
+No
+# input
+public class hb6 {
+    public static void h1(){
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# output
+Is there any syntax error in this code?
+Yes
+# input
+{{combined_code}}
+# output
+Is there any syntax error in this code?

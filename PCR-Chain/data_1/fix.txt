@@ -1,0 +1,83 @@
+# the code is java code, the input is whether the code is right or wrong, and the output is correct code.
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure()
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# input
+Is there any syntax error in this code?
+Yes.
+What is the correct code?
+The correct code is:
+# output
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# code
+public class hb6 {
+    public static void h1(){
+        Configuration config == new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# input
+Is there any syntax error in this code?
+Yes.
+What is the correct code?
+The correct code is:
+# output
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# code
+public class hb6 {
+    public static void h1(){
+        ArrayList config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# input
+Is there any syntax error in this code?
+Yes.
+What is the correct code?
+The correct code is:
+# output
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# code
+public class hb6 {
+    public static void h1(){
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# input
+Is there any syntax error in this code?
+Yes.
+What is the correct code?
+The correct code is:
+# output
+public class hb6 {
+    public static void h1(){
+        Configuration config = new Configuration().configure();
+        SessionFactory sessionFactory = config.buildSessionFactory();
+    }
+}
+# code
+{{combined_code}}
+# input
+Is there any syntax error in this code?
+{{assertion}}.
+What is the correct code?
+# output
+

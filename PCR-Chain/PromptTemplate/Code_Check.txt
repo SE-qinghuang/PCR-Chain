@@ -66,4 +66,4 @@ A: Yes
 {{code}}
 
 Q: Is there any syntax error in this code?
-A:
+A: 

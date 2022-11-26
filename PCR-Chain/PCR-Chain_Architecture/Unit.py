@@ -42,7 +42,6 @@ class AI_Unit(Unit):
         self.value4Conditon = value4Conditon
 
     def AIRun(self, inputs):
-        # 还没有配置环境变量
         #avoid "You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY)"
         if os.environ.get("OPENAI_API_KEY") is None:
             print("You need to set the OPEN_AI_SECRET_KEY environment variable in .env to your OpenAI API key.")
@@ -67,9 +66,6 @@ class AI_Unit(Unit):
         output = output.split("\n")
         # delete the empty string in the list
         output = [i for i in output if i != '']
-        for i in range(len(output)):
-            if "Yes" in output[i] or "No" in output[i]:
-                output[i] = output[i].strip()
         output = "\n".join(output)
         a = 1
         # join函数的作用是把list中的元素用指定的字符连接起来

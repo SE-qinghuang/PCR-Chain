@@ -7,6 +7,6 @@ In Unit.py file, you need to set the openai_key to use OpenAI API.
 ```
 openai.api_key = "YOUR_API_KEY"
 ```
-After setting, put the code to be repaired into java_code.txt, and then execute python Assembler.py
+After setting, put the code to be repaired into ```java_code.txt```, and then run ```Assembler.py```
 # Attention
 This tool is compatible with Python 3.6 and above.
